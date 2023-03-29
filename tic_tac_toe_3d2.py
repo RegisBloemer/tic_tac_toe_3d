@@ -106,7 +106,6 @@ def minimax(board, depth, alpha, beta, maximizing_player):
                     break
         return min_eval
 
-
 def ai_move():
     start_time = time.time()
     max_depth = 1
